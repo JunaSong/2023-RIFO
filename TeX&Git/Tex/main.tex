@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage[cjk]{kotex}
+\usepackage{ulem}
+
+\begin{document} % start
+%제목
+\begin{center} % 중앙 정렬
+\LARGE {신입생 교육 2일차} \\
+\vspace{10pt} % 줄 사이 간격 조절
+\small {LaTex(레이텍스) 쓰기}
+\end{center}
+
+\begin{flushright} % 오른쪽 정렬
+%날짜
+2022.12.29
+
+\end{flushright} % 한줄 간격 넣기
+\begin{flushright}
+%이름
+\textit{Jungyeon Lee} % 이텔릭체
+\rule{\linewidth}{1pt}
+\end{flushright}
+
+\begin{flushleft}
+\section*{Last Week} % 섹션
+\end{flushleft}
+
+\begin{enumerate} % 번호 붙이기
+
+\item 자기소개 % item 하나의 컨텐츠로 인식
+%이름, 소속 팀, 취미, 주의사항
+\begin{itemize} % 들여쓰기
+    \item 이름: 
+    \item 나이: 
+    \item 소속: 
+    \item 입학년도: 
+    \item MBTI: 
+    \item 간단한 소개: 
+\end{itemize}
+
+\item 연습
+\begin{itemize}
+	\item 수식 쓰기 : $x+y$
+	\item \textbf{사진 올리기} % crtl+b 로 볼드 i 로 이텔릭
+	\begin{figure}[h] % here
+	    \centering
+	    \includegraphics[scale=1.5]{logo.png} % 사진 크기 조정
+	    \caption{Robotics Innovatory}
+	    \label{fig:my_label}
+	\end{figure}
+
+\end{itemize}
+
+\end{enumerate} % 번호 붙이기 끝
+
+\newpage % 다음페이지에서 작성
+
+\begin{flushleft}
+\section*{Future Plan}
+\end{flushleft}
+
+\begin{enumerate}
+
+\item 
+
+\end{enumerate}
+\end{document} % 끝
